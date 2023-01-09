@@ -1,0 +1,1 @@
+Personal webpage of Andrew Chin. Theme modified from https://github.com/SebastinSanty/minimal-research-theme.
