@@ -9,10 +9,6 @@
     <meta name="author" content="Andrew Chin">
     <meta name="theme-color" content="#111111">
 
-<!--     <link rel="apple-touch-icon" sizes="180x180" href="images/nicons/favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/favicon.svg">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/nicons/favicon.svg"> -->
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style-2.css">
@@ -20,7 +16,6 @@
     <title>Andrew Chin</title>
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
     <div class="container pt-5 allstuffp">
         <div class="row pt-5 allstuff">
             <div class="col-md-4 pt-5">
@@ -34,11 +29,7 @@
                 <div class=""><a class="menulink" target="_blank" href="https://www.linkedin.com/in/andrewchin1/">linkedin</a></div>
 <!--                 <div class=""><a class="menulink" target="_blank" href="/">cv</a></div>
  -->                <!-- <div class=""><a class="menulink" target="_self" href="">random background distribution</a></div> -->
-                
 
-                <!-- <div class="pt-5">usercontext</div> -->
-                <!-- <div class="">travel history</div> -->
-                <!-- <div class="">this template</div> -->
                 </div>
             </div>
             <div class="col-md-8 pt-5 about">
@@ -112,49 +103,9 @@
                  JHU Whiting School of Engineering | Fall Term 2022<span class="tagsep"></span>
                 </p>
                 </div>
-
 <br><br><br><br><br><br>
-                <!-- <div class="row text-center py-4">
-                    <div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-1" src="images/bitspilani.png">
-                        <div class="institution">BITS Pilani</div>
-                        <div class="years">2015 - 2018</div>
-                    </div>
-                    <div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-3" src="images/mozilla1.png">
-                        <div class="institution">Mozilla</div>
-                        <div class="years">S2017</div>
-                    </div>
-                    <div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-2" src="images/julia1.png">
-                        <div class="institution">Julia Computing</div>
-                        <div class="years">S2018</div>
-                    </div>
-                    <div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-3" src="images/ucl1.png">
-                        <div class="institution">University College London</div>
-                        <div class="years">S2018</div>
-                    </div>
-                    <div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-1" src="images/CMU1.png">
-                        <div class="institution">Carnegie Mellon</div>
-                        <div class="years">F2018</div>
-                    </div>
-                    <div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-2" src="images/microsoft_research_logo.jpg">
-                        <div class="institution">Microsoft Research</div>
-                        <div class="years">2019 - Present</div>
-                    </div>
-                </div> -->
-
             </div>
-            
         </div>
-<!--         <div class="row justify-content-center pt-5 pb-3" style="font-size: 0.9rem;">
-            <div>
-            Adapted from the <a target="_blank" href="https://github.com/SebastinSanty/minimal-research-theme" style="text-decoration: underline;">Minimal Research Theme.</a><span class="tagseparticle"></span>
-            </div>
-        </div>    -->
     </div>
 
     <!-- Optional JavaScript -->
@@ -168,7 +119,6 @@
   </style>
 <canvas id="distribution" />
 </html>
-
 
 
 <style>
@@ -191,7 +141,7 @@ const canvas = document.getElementById("distribution");
 const context = canvas.getContext("2d");
 
 const frameCount = 30;
-var randomDist = Math.floor(Math.random() * 1) + 1;
+var randomDist = Math.floor(Math.random() * 1) + 1; // change * 1 to * 4 to enable multiple backgrounds
 const currentFrame = index => (
   `images/bg${randomDist.toString()}/bg${index.toString()}.svg`
 )
