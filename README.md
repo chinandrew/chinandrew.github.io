@@ -1,1 +1,1 @@
-Personal webpage of Andrew Chin. Theme modified from https://github.com/SebastinSanty/minimal-research-theme.
+Personal webpage of Andrew Chin, live at <https://chinandrew.github.io/>. Theme modified from https://github.com/SebastinSanty/minimal-research-theme.
