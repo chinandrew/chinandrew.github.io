@@ -1,9 +1,9 @@
 // Initialize font properties
-const fontname = "Ubuntu";
-const fontweights = [300, 400]
+const fontname = "Assistant";
+const fontweights = [400,500]
 
 // Color properties
-const basecolor = "#555";
+const basecolor = "#333";
 const accentcolor = "#002D72";
 const highlightcolor = "#000";
 
@@ -12,8 +12,8 @@ const highlightcolor = "#000";
 // const highlight = "#111";
 
 // Body properties
-const bodyfontweight = 300;
-const bodyfontsize = "12pt";
+const bodyfontweight = 400;
+const bodyfontsize = "13pt";
 const backgroundcolor = "#fff";
 
 // Link properties
@@ -25,7 +25,7 @@ const adecoration = "underline dotted";
 
 // Menu properties
 const menucolor = accentcolor;
-const menufontsize = "14pt";
+const menufontsize = "15pt";
 const menudecoration = "underline dotted";
 // const menuhover = accentcolor;
 // const menuhoverduration = "0.3s";
@@ -52,7 +52,7 @@ const authordecoration = "none";
 const authorstyle = "normal";
 
 const selfcolor = highlightcolor;
-const selfweight = bodyfontweight;
+const selfweight = 500;
 const selfdecoration = "none";
 const selfstyle = "normal";
 
